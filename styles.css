@@ -1,0 +1,28 @@
+
+.knowMoreBtn {
+  padding: 10px 20px;
+  background-color: purple;
+  text-align: center;
+  width: fit-content;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+div.knowMoreBtn:hover {
+  background-color: darkorange;
+}
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: black;
+}

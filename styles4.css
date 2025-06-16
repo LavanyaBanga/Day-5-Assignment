@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+
+.container .new::after {
+  content: 'New';
+  font-size: 13px;
+  color: white;
+  background-color: goldenrod;
+  margin-left: 10px;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+
+.container .trending::after {
+  content: 'Trending';
+  font-size: 13px;
+  color: white;
+  background-color: palevioletred;
+  margin-left: 10px;
+  padding: 4px 12px;
+  border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu {
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  background-color: #ffaa71;
+  z-index: 2;
+  text-align: center;
+}
+
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+
+.article {
+  padding: 60px 20px;
+  height: 800px; 
+  border-bottom: 1px solid #ccc;
+}
